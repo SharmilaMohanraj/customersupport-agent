@@ -1,0 +1,34 @@
+[
+  {
+    "type": "prompt_injection",
+    "config": {},
+    "enabled": true
+  },
+  {
+    "type": "pii",
+    "config": {
+      "action": "redact"
+    },
+    "enabled": true
+  },
+  {
+    "type": "toxicity_check",
+    "config": {},
+    "enabled": true
+  },
+  {
+    "type": "relevance_check",
+    "config": {},
+    "enabled": true
+  },
+  {
+    "type": "pii_detection",
+    "config": {},
+    "enabled": true
+  },
+  {
+    "type": "prompt_injection_check",
+    "config": {},
+    "enabled": true
+  }
+]

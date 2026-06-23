@@ -1,0 +1,7 @@
+{
+  "enabled": true,
+  "chunk_size": 512,
+  "vector_store": "qdrant",
+  "chunk_overlap": 50,
+  "embedding_model": "text-embedding-3-small"
+}

@@ -1,0 +1,23 @@
+# AgentForge manifest — do not edit manually
+apiVersion: agentforge/v1
+kind: AgentManifest
+
+metadata:
+  agentId: "a2e02db5-67b5-4cc0-9a2d-0d6196828d50"
+  agentVersionId: "16fccb53-c692-4c15-922d-d3cea8019cf5"
+  slug: "customer-support-agent-1"
+  name: "Customer Support Agent"
+
+spec:
+  runtime:
+    llmModel: "claude-sonnet-4-6"
+    environment: "kubernetes"
+  resources:
+    cpu: "0.5"
+    memory: "1Gi"
+    replicas: 2
+  healthCheck:
+    path: "/health"
+
+cost:
+  estimatedMonthlyUsd: 46.5
